@@ -5,7 +5,7 @@ var Examples = React.createClass({
     return(
       <h3>Examples component</h3>
     )
-  };
+  }
 });
 
 var Examples = (props) =>{
