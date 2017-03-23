@@ -1,18 +1,19 @@
 var React = require ('react');
-
-var Examples = React.createClass({
-  render:function(){
-    return(
-      <h3>Examples component</h3>
-    )
-  }
-});
+var {Link} = require('react-router');
 
 var Examples = (props) =>{
   return(
     <div>
-    <h3>Examples component!</h3>
-    <P>Welcome to examples page</P>
+    <h1 className="text-center">Examples</h1>
+    <p>Here are a few comp examp to try out</p>
+    <ol>
+      <li>
+        <link to='/?location=London'>London, England</link>
+      </li>
+      <li>
+        <link to='/?location=Rio'>Rio, Brazil</link>
+      </li>
+    </ol>
     </div>
   )
 };
