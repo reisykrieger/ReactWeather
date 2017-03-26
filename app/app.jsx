@@ -9,8 +9,8 @@ var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
 var Main = require('Main');
 var Weather = require('Weather');
-var About = require("About");
-var Examples = require("Examples");
+var About = require('About');
+var Examples = require('Examples');
 
 //load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
